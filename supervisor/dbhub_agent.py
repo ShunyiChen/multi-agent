@@ -26,7 +26,8 @@ load_dotenv()
 # Config
 # =========================
 
-DBHUB_MCP_URL = "http://127.0.0.1:8080/mcp"
+# MCP Server URL
+DBHUB_MCP_URL = f"http://{os.getenv('IP_ADDRESS', 'localhost')}/mcp"
 
 BASE_DIR = Path(__file__).parent
 PROMPT_FILE = BASE_DIR / "prompts/dbhub.md"

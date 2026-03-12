@@ -20,8 +20,12 @@ import os
 
 load_dotenv()
 
+# =========================
+# Config
+# =========================
+
 # MCP Server URL
-K8S_MCP_URL = "http://127.0.0.1:8888/mcp"
+K8S_MCP_URL = f"http://{os.getenv('IP_ADDRESS', 'localhost')}/mcp"
 
 BASE_DIR = Path(__file__).parent
 PROMPT_FILE = BASE_DIR / "prompts/kubernetes.md"
