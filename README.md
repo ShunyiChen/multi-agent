@@ -85,10 +85,6 @@ python supervisor/main.py
 
 To create a standalone executable:
 ```bash
-python -m PyInstaller --onefile --console --name multi_agent --add-data "supervisor/prompts;prompts" supervisor/main.py
-```
-Or
-```bash
 pyinstaller.exe multi_agent.spec --noconfirm
 ```
 ---
