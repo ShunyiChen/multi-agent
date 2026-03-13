@@ -1,6 +1,7 @@
 from PyInstaller.utils.hooks import collect_all
 
 datas, binaries, hiddenimports = collect_all('fastmcp')
+hiddenimports += ['charset_normalizer']
 
 a = Analysis(
     ['supervisor\\main.py'],

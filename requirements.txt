@@ -12,3 +12,4 @@ fastmcp==3.1.0
 httpx==0.28.1
 nest-asyncio==1.6.0
 pyinstaller==6.19.0
+charset-normalizer==3.4.5

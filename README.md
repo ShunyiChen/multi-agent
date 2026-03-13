@@ -16,6 +16,14 @@ The **Multi-Agent AI Launchpad** follows a Supervisor-Agent pattern. A central *
 
 ---
 
+## 📸 Screenshots
+
+![Screenshot 1](screenshots1.png)
+![Screenshot 2](screenshots2.png)
+
+---
+
+
 ## 🚀 Key Features
 
 - **Centralized Orchestration**: Seamless task delegation using LangGraph's routing and state management.

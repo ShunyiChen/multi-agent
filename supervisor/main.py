@@ -1,3 +1,7 @@
+import warnings
+# Suppress RequestsDependencyWarning about chardet/charset_normalizer
+warnings.filterwarnings("ignore", message=".*chardet or charset_normalizer.*")
+
 from dotenv import load_dotenv
 from langgraph.graph import StateGraph
 from langgraph.types import RunnableConfig
